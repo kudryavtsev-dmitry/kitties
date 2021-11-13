@@ -1,0 +1,20 @@
+@mixin icon {
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .likeIcon {
+        @include icon;
+        color: rgb(173, 47, 47);
+    }
+
+    .icon {
+        @include icon
+    }
+}

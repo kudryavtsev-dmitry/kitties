@@ -1,0 +1,14 @@
+.liked {
+    width: fit-content;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow: 9px 9px 19px #bebebe,
+        -9px -9px 19px #ffffff;
+}
+
+.active {
+    box-shadow: inset 9px 9px 19px #bebebe,
+        inset -9px -9px 19px #ffffff;
+}

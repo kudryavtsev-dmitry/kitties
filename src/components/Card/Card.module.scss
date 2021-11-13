@@ -1,0 +1,25 @@
+.container {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 35px;
+    background: #dedede;
+    box-shadow: 5px 5px 10px #959595,
+        -5px -5px 10px #ffffff;
+    display: grid;
+    gap: 16px;
+    grid-template-rows: 80% 1fr;
+
+    .photo {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            object-fit: contain;
+        }
+    }
+}
