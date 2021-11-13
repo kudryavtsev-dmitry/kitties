@@ -25,6 +25,7 @@ export const Card = memo(
         <div className={styles.photo}>
           <img src={url} alt="cat" />
         </div>
+        <div className={styles.title}>я котик с id = {id}</div>
         <CardActions
           liked={liked}
           onDelete={handleDelete}

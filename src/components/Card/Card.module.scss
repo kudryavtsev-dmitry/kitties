@@ -9,7 +9,11 @@
         -5px -5px 10px #ffffff;
     display: grid;
     gap: 16px;
-    grid-template-rows: 80% 1fr;
+    grid-template-rows: 70% 5% 10%;
+
+    .title{
+        margin: 0 auto;
+    }
 
     .photo {
         display: flex;
